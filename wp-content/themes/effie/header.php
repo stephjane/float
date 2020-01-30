@@ -11,13 +11,11 @@
   crossorigin="anonymous"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <?php wp_head();?>
-  <link rel="stylesheet" href="https://use.typekit.net/vmz7qzo.css">
 <!-- <link href="<?php echo get_bloginfo('template_directory'); ?>/dist/style.css" rel="stylesheet"> -->
   <link href="<?php echo get_bloginfo('template_directory'); ?>/css/style.css" rel="stylesheet">
 </head>
 <body>
   <nav>
-    <a href="/"><img src="http://bettercut.local/wp-content/uploads/2020/01/A_Better_Cut_Logo_White.png"></a>
     <ul>
       <li class="page_item"><a href="/faq">faq</a></li>
       <li class="page_item"><a href="/faq">contact</a></li>
