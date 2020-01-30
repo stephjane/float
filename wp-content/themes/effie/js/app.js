@@ -16,25 +16,7 @@ $(".service-slider button").text("");
 $("button.slick-next").html("<i class='fa fa-arrow-right'></i>");
 $("button.slick-prev").html("<i class='fa fa-arrow-left'></i>");
 
-const modalAppointment = $(".modal__appointment");
-$(".btn__book").on("click", function() {
-  modalAppointment.toggleClass("open");
-});
-$(".modal .close").on("click", function() {
-  if((modalAppointment).hasClass("open") == true) {
-    modalAppointment.removeClass("open");
-  }
-});
 
-const modalBio = $(".modal__bio");
-let modalInnerName = modalBio.find("h3");
-let modalInnerBio = modalBio.find("p");
-let modalImg = modalBio.find(".bg-img");
-$(".modal .close").on("click", function() {
-  if((modalBio).hasClass("open") == true) {
-    modalBio.removeClass("open");
-  }
-});
 
 let filterBy = [];
 displayStaff(null)
